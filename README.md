@@ -1,8 +1,6 @@
-# template-chrome-extension-webpack
+# Discord-Monitor-Chrome-Extension
 
-[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
-
-A template to create Google Chrome Extensions with Webpack as the module-bundler
+This Extension will monitor the discord opened inside chrome browser tab and you can monitor typing and posting message activities of any one user. Whenever selected user starts typing or posts a message it will send you a telegram notification
 
 ## Technologies
 
@@ -51,4 +49,3 @@ A template to create Google Chrome Extensions with Webpack as the module-bundler
  In this mode, Webpack generates source-maps for bundled JavaScript resources to simplify debugging of JavaScript in the web-browser and provides a live-development experience.  
   - `npm run build` to run Webpack with production configuration.  
  In this mode, Webpack minifies the JavaScript bundles and there are no source-maps created.
-# Discord-Monitor-Chrome-Extension

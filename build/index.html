@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Latest compiled and minified CSS -->
+  </head>
+  <body>
+    <div id="container">
+      <h2>Discord Notifier</h2>
+      <img src="../images/discord_48x48.png" />
+      <br />
+      <h3>Please input username of the person that you want to monitor</h3>
+      <input
+        type="text"
+        name="username"
+        placeholder="Username"
+        id="username"
+        title="This name will be used internally for monitoring purpose so that whenever that person is typing you will be notified"
+      />
+      <h3>Please input telegram bot id to be monitored</h3>
+      <input
+        type="text"
+        name="botid"
+        placeholder="XXX:YYYY"
+        id="botid"
+        title="This will be used to send notifications on telegram"
+      />
+      <h3>Please input chat id to which messages will be sent</h3>
+      <input
+        type="text"
+        name="chatid"
+        placeholder="XXX:YYYY"
+        id="chatid"
+        title="This will be used to send notifications on telegram"
+      />
+      <br />
+      <button id="btn-monitor">Monitor</button>
+      <h4 id="notice"></h4>
+    </div>
+    <div id="not-on-discord-container">
+      <h2>Please go to discord.com to use extension</h2>
+    </div>
+    <script src="scripts/popup.js"></script>
+  <script type="text/javascript" src="scripts/popup.js"></script><script type="text/javascript" src="scripts/content.js"></script><script type="text/javascript" src="scripts/background.js"></script></body>
+</html>
